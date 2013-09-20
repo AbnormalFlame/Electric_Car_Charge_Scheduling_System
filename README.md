@@ -56,7 +56,7 @@ C <-> S <-> S <-> C
 | + whoToCharge() : Car                           |
 | + setNumberOfCars()                             |
 | + isTherePower(neededPower : double) : boolean  |
-| + isThereSlots()                                |
+| + isThereSlots() : boolean                      |
 
 
 
