@@ -16,7 +16,7 @@ Transformer agent
 Car agent
   -Schedule
   -Charge
-
+```
       T     T
       ^     ^
       |     |
@@ -26,46 +26,37 @@ C <-> S <-> S <-> C
       |     |
       V     V
       C     C
-      
--------------------------------------
+```  
 |               Car                 |
 -------------------------------------
 | - charge : double                 |
 | - timeTillUse : double            |
 | - maxCharge : double              |
--------------------------------------
 | + getNeededCharge() : double      |
 | + setTimeTillUse()                |
 | + setCharge()                     |
 | + isCharged() : boolean           |
 | + chargeCar(chargeRate : double)  |
--------------------------------------
 
------------------------------------
 |           Transformer           |
 -----------------------------------
 | - limit : double                |
 | - powerLevel : double           |
 | - output : double               |
------------------------------------
 | + getOutput() : double          |
 | + getAvailablePower() : double  |
 | + getLimit() : double           |
 | + charging(cahrgeRate : double) |
------------------------------------
 
----------------------------------------------------
 |                    Scheduler                    |
 ---------------------------------------------------
 | - carLimit : int                                |
 | - numberOfCars : int                            |
 | - chargeRate : double                           |
----------------------------------------------------
 | + whoToCharge() : Car                           |
 | + setNumberOfCars()                             |
 | + isTherePower(neededPower : double) : boolean  |
 | + isThereSlots()                                |
----------------------------------------------------
 
 
 
