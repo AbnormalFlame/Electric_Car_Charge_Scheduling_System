@@ -4,18 +4,19 @@ Electric_Car_Charge_Scheduling_System
 HIT3138
 
 Scheduling agent
-  -Car charge levels
-  -Time till car is going to be used
-  -Who is currently charging
-  -Transformer power levels
+* Car charge levels
+* Time till car is going to be used
+* Who is currently charging
+* Transformer power levels
   
 Transformer agent
-  -Holds information
-  -Calculates stuff
+* Holds information
+* Calculates stuff
   
 Car agent
-  -Schedule
-  -Charge
+* Schedule
+* Charge
+
 ```
       T     T
       ^     ^
