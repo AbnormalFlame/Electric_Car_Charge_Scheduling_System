@@ -47,7 +47,7 @@ C <-> S <-> S <-> C
 | + getOutput() : double          |
 | + getAvailablePower() : double  |
 | + getLimit() : double           |
-| + charging(cahrgeRate : double) |
+| + charging(chargeRate : double) |
 
 |                    Scheduler                    |
 ---------------------------------------------------
